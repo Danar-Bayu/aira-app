@@ -1,0 +1,29 @@
+{
+  "name": "aira_app",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "deploy": "vite build && gh-pages -d dist"
+  },
+  "dependencies": {
+    "@modular-forms/solid": "^0.25.1",
+    "@solidjs/router": "^0.15.3",
+    "@tailwindcss/vite": "^4.0.9",
+    "axios": "^1.8.1",
+    "david-ai": "^1.0.6",
+    "moment": "^2.30.1",
+    "solid-js": "^1.9.5"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "gh-pages": "^6.3.0",
+    "postcss": "^8.5.3",
+    "tailwindcss": "^4.0.9",
+    "vite": "^6.2.0",
+    "vite-plugin-solid": "^2.11.2"
+  }
+}
