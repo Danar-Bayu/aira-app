@@ -1,0 +1,1 @@
+import{d as r,S as t,t as n}from"./index-CZkt39m6.js";var o=n('<div class="flex justify-center items-center py-8"><div class="animate-spin rounded-full h-12 w-12 border-t-2 border-b-2 border-blue-500">');function s(e){return r(t,{get when(){return e.show},get children(){return o()}})}export{s as L};
