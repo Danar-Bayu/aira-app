@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Redirecting...</title>
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script>
+        // Simpan rute yang dituju dan redirect ke index.html
+        sessionStorage.redirect = window.location.pathname;
+        window.location.replace("/aira-app/"); // Sesuaikan dengan base URL
+    </script>
+</head>
+
+<body>
+    <p>Redirecting... <a href="/aira-app/">Klik di sini</a> jika tidak otomatis.</p>
+</body>
+
+</html>
