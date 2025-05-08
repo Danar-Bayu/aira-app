@@ -1,1 +1,0 @@
-import{p as a}from"./index-D0UguEpr.js";const t="profile",n={async getProfile(n){const s=n?{signal:n.signal}:{};return(await a.get(t,s)).data},async updateProfile(n,s){const i=s?{signal:s.signal}:{};return(await a.put(t,n,i)).data}};export{n as p};
