@@ -1,1 +1,0 @@
-import{D as e,l as t}from"./index-DUF8mqfk.js";const s=(s,o)=>{let r;const a=()=>clearTimeout(r);e()&&t(a);return Object.assign(((...e)=>{void 0!==r&&a(),r=setTimeout((()=>s(...e)),o)}),{clear:a})};export{s as d};
