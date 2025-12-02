@@ -1,1 +1,0 @@
-import{q as a}from"./index-BKxVNCIb.js";const n="penjualan",t={async getPenjualan(t,s,e){const r={start:t,end:s},o=e?{params:r,signal:e.signal}:{params:r};return(await a.get(n,o)).data},async prosesPenjualan(t,s,e){const r={kodePelanggan:t,start:s,end:e};return(await a.post(n,r)).data}};export{t as p};
